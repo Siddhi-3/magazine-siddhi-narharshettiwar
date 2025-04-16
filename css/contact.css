@@ -1,0 +1,120 @@
+/* Contact page specific styles */
+.contact-section1 {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 6rem auto 2rem;
+}
+
+.contact-section1 h1 {
+    text-align: center;
+    font-size: 88px;
+    font-family: 'Arizonia', cursive;
+    margin-bottom: 3rem;
+    color: #333;
+    font-weight: 400;
+}
+
+.contact-intro {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-complete-form {
+    max-width: 800px;
+    margin: 0 auto;
+    background: linear-gradient(to top, #B1BFAE, #FFFFFF);
+    padding: 3rem;
+    border-radius: 20px;
+}
+
+.form-contain {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-complete-form input,
+.contact-complete-form textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 2px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    background-color: #FFFFFF;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-complete-form textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #4C584A;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 40px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.submit-btn:hover {
+    background-color: #3A443A;
+}
+
+.contact-information h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #4C584A;
+}
+
+.contact-m1 {
+    background-color: #F5F5F5;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-m1 h3 {
+    color: #4C584A;
+    margin-bottom: 1rem;
+}
+
+.contact-m1 p {
+    margin-bottom: 0.5rem;
+}
+
+.contact-m1 a {
+    color: #4C584A;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-m1 a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.social-links a {
+    font-weight: 600;
+}
+

@@ -1,0 +1,165 @@
+/* Base styles and CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color:  #000000;
+    background-color: #FFFFFF;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+    font-family: 'Arizonia', cursive;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+/* Layout */
+header {
+    background: #b1bfae;
+    padding: 0 4rem;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    position: fixed;
+    flex-direction: column;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+    font-family: 'Arizonia', cursive;
+    font-size: 3rem;
+    color: white;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 0.5rem 0;
+    gap: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    display: block;
+}
+
+nav a:hover,
+nav a.active {
+    color:#4C584A;
+}
+
+/* Add new search form styles */
+.search-form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 1rem 0;
+    justify-content: center;
+}
+
+.search-form input[type="search"] {
+    padding: 12px 14px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    width: calc(100% - 50px);
+}
+
+.search-form input[type="search"]:focus {
+    outline: none;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-form button {
+    padding: 7px 13px;
+    background-color: white;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.search-form button:hover {
+    background-color: #E1E7DD;
+}
+
+.search-form button img {
+    width: 22px;
+    height: 22px;
+    filter: brightness(0);
+}
+
+/* Main content */
+main {
+    padding: 0;
+}
+
+section {
+    margin-bottom: 0;
+    padding: 4rem 2rem;
+}
+
+/* Footer */
+footer {
+    background-color:#B1BFAE;
+    color: #FFFFFF;
+    padding: 2rem 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright-footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #B1BFAE;
+    width: 100%;
+}

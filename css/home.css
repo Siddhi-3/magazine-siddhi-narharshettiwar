@@ -1,0 +1,403 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero section */
+.hero-section {
+    text-align: center;
+    padding: 0;
+    margin-top: 100px;
+    position: relative;
+    color: #000000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/christian-joudrey-u_nsiSvPEak-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.hero-section h1 {
+    position: relative;
+    z-index: 2;
+    font-family: 'Arizonia', cursive;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #000;
+    margin-bottom: 10rem;
+    text-align: center;
+    padding: 2rem;
+    max-width: 90%;
+    width: auto;
+    display: inline-block;
+}
+
+/* About section */
+.about-section {
+    padding: 2rem;
+    background-color: #B1BFAE;
+    text-align: justify;
+}
+
+.about-section h2 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.about-section p {
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #E1E7DD;
+    max-width: 800px;
+    padding: 3rem;
+    border-radius: 16px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    margin: auto;
+}
+
+/* History section */
+.history {
+    padding: 2rem;
+    background-color: #FFFFFF;
+}
+
+.history h2 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.history-complete-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.history1 {
+    display: grid;
+    gap: 2rem;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+.history-ptext {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.history-ptext :last-child {
+    margin-bottom: 0;
+}
+
+.history-img {
+    width: 80%;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.history-img img {
+    width: 100%;
+    height: 450px;
+    display: block;
+}
+
+
+
+.history-quoteDN {
+    background-color:#E1E7DD;
+    padding: 2rem;
+    border-radius: 16px;
+    text-align: justify;
+}
+
+.history-quoteDN footer {
+    font-style: italic;
+    color: #666;
+    text-align: right;
+    background: none;
+    padding: 0;
+    padding-top: 1rem;
+    margin: 0;
+}
+
+/* Latest section */
+.latest {
+    padding: 2rem;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.latest h2 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.articles-g1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cards {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    position: relative;
+    height: 450px;
+}
+
+.cards a{
+    color: white;
+    text-decoration: none;
+}
+
+.cards figure {
+    height: 100%;
+    margin: 0;
+}
+
+.cards img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.cards figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+    background: rgba(0, 0, 0, 0.7);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 1.5rem;
+}
+
+.cards h3 {
+    margin-bottom: 0.7rem;
+    font-family: 'Arizonia', cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.cards p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: justify;
+}
+
+/* UX Testing section */
+.ux-testing {
+    padding: 2rem;
+    background-color: #D7DFDA;
+    text-align: center;
+    position: relative;
+    clear: both;
+    margin-top: 2rem;
+}
+
+.ux-testing h2 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.ux-testing-complete-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ux-testing-ptext {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: justify
+}
+
+.ux-testing-ptext:last-child {
+    margin-bottom: 0;
+}
+
+.ux-testing-img {
+    width: 80%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+    align-self: center;
+}
+
+.ux-testing-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Sources section */
+.sources-section1 {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.sources-section1 h2 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.source-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.hide {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+.source-card {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.source-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+
+/* Contact section styles for home page */
+.contact-section {
+    padding: 4rem 2rem;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.contact-section h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.contact-form-content {
+    max-width: 500px;
+    width: 90%;  
+    margin: 0 auto;
+    background: linear-gradient(to top, #B1BFAE, #FFFFFF);
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    background-color: #FFFFFF;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-group textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Contact form submit button styles */
+.contact-form .submit-btn {
+    background-color: #4C584A;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 40px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 1rem;
+}
+
+.contact-form .submit-btn:hover {
+    background-color: #3A443A;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form .submit-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
